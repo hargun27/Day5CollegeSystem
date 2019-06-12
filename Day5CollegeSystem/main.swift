@@ -9,4 +9,10 @@
 import Foundation
 
 print("Hello, World!")
+var p = Person()
+var s = Student()
+p.id = 100
+p.firstName = "Hargun"
+//computed
+//p.fullName = "hello"
 
