@@ -37,5 +37,8 @@ class Student : Person
         print("init() of Student")
         //supe.init()
     }
+    override func display() {
+
+    }
     
 }

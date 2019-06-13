@@ -10,20 +10,21 @@ import Foundation
 enum Gender{
     case MALE,FEMALE,OTHER
 }
-class Person
+class Person : Display
 {
+    var dummy : Int
     //private _id : Int
-    private var id : String?
-    var uniqueId : Int
+    private var _id = Int()
+    var id : Int?
     {
     get{
-    return self.uniqueId
+    return self._id
     }
-    set{
-    self.uniqueId = newValue
-    }
+   // set{
+   // self.uniqueId = newValue
+   // }
    }
-   var id : Int?
+  // var id : Int?
     var firstName : String?
     var lastName : String?
     // computed
@@ -34,15 +35,21 @@ class Person
     var gender : Gender
     var email : String?
     var birthDate : Date?
+    //self.address =
+    var address : Address?
     
     init() {
         print("init() of Person")
-        self.id = 0
+      //  self.id = 0
         self.firstName = String()
         self.lastName = String()
         self.gender = Gender.OTHER
         self.email = String()
         self.birthDate = Date()
+        self.address = Address(suiteNumber: <#Int#>, streetName: <#String#>)
+    }
+    func display()
+    {
         
     }
 }

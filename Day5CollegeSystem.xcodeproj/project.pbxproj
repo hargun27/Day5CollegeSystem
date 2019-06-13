@@ -10,6 +10,8 @@
 		0A8CF1DA22B1B1D400953B3E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CF1D922B1B1D400953B3E /* main.swift */; };
 		0A8CF1E122B1B23800953B3E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CF1E022B1B23800953B3E /* Person.swift */; };
 		0A8CF1E322B1B26B00953B3E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CF1E222B1B26B00953B3E /* Student.swift */; };
+		0A8CF1E922B302F300953B3E /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CF1E822B302F300953B3E /* Address.swift */; };
+		0A8CF1EB22B3035700953B3E /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CF1EA22B3035700953B3E /* Display.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		0A8CF1D922B1B1D400953B3E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A8CF1E022B1B23800953B3E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		0A8CF1E222B1B26B00953B3E /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		0A8CF1E822B302F300953B3E /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		0A8CF1EA22B3035700953B3E /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,21 @@
 		0A8CF1D822B1B1D400953B3E /* Day5CollegeSystem */ = {
 			isa = PBXGroup;
 			children = (
+				0A8CF1E622B3026700953B3E /* Protocol */,
 				0A8CF1D922B1B1D400953B3E /* main.swift */,
 				0A8CF1E222B1B26B00953B3E /* Student.swift */,
 				0A8CF1E022B1B23800953B3E /* Person.swift */,
+				0A8CF1E822B302F300953B3E /* Address.swift */,
 			);
 			path = Day5CollegeSystem;
+			sourceTree = "<group>";
+		};
+		0A8CF1E622B3026700953B3E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0A8CF1EA22B3035700953B3E /* Display.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8CF1EB22B3035700953B3E /* Display.swift in Sources */,
 				0A8CF1E122B1B23800953B3E /* Person.swift in Sources */,
 				0A8CF1E322B1B26B00953B3E /* Student.swift in Sources */,
+				0A8CF1E922B302F300953B3E /* Address.swift in Sources */,
 				0A8CF1DA22B1B1D400953B3E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
