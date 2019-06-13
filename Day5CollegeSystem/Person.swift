@@ -12,16 +12,18 @@ enum Gender{
 }
 class Person
 {
-    var id : Int
+    //private _id : Int
+    private var id : String?
+    var uniqueId : Int
     {
     get{
-    return self.id
+    return self.uniqueId
     }
     set{
-    self.id = newValue
+    self.uniqueId = newValue
     }
-    }
-   // var id : Int?
+   }
+   var id : Int?
     var firstName : String?
     var lastName : String?
     // computed
