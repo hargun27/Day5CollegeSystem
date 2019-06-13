@@ -46,7 +46,7 @@ class Person : Display
         self.gender = Gender.OTHER
         self.email = String()
         self.birthDate = Date()
-        self.address = Address(suiteNumber: <#Int#>, streetName: <#String#>)
+        self.address = Address(suiteNumber: <#Int#>, streetName: <#String#>, city: <#String#>, postalCode: <#String#>, countryName: <#String#>)
     }
     func display()
     {

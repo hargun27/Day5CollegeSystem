@@ -33,8 +33,14 @@ s.email = "hargunmarya2726@gmail.com"
 s.marks = ["Math": 80,
            "Science": 72,
            "English": 75]
+var studentAddress = Address(suiteNumber: 1900, streetName: "elgin dr" , city : "toronto",postalCode : "mjefdg" , countryName : "canada" )
+s.address = studentAddress
 
 print(s.firstName ?? "No first name", s.lastName ?? "No last name", s.birthDate ?? "No date of birth given", s.gender, s.email ?? "No email given", s.marks, s.total, s.per)
+/var a = Address(suiteNumber: 1900, streetName: "elgin dr" , city : "toronto",postalCode : "mjefdg" , countryName //: "canada" )
+s.address?.city = "london"
+print(s.address!.city)
+studentAddress.city = ""
 
 
 
